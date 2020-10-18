@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: boot-producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.105.161.6:8848
+
