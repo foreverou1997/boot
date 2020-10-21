@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: boot-producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.105.161.6:8848
+      config:
+        server-addr: 39.105.161.6:8848
+        group: public-health
+        file-extension: properties
+
