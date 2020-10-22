@@ -1,2 +1,6 @@
 server:
   port: 8080
+rocketmq:
+  name-server: 39.105.161.6:9876
+  producer:
+    group: producerGroup1
