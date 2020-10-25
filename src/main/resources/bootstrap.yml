@@ -8,6 +8,8 @@ spring:
       config:
         server-addr: 39.105.161.6:8848
         group: public-health
-        file-extension: properties
+        file-extension: yaml
         enabled: true
+  profiles:
+    active: dev
 
