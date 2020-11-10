@@ -16,7 +16,7 @@ public class TestMqController {
 
     @GetMapping("/test")
     public String sendMsg(){
-        rocketMQTemplate.convertAndSend("test",new UserDTO("userId", "userName"));
+        rocketMQTemplate.convertAndSend("test",new UserDTO("123", "测试"));
         return "消息发送成功";
     }
 
